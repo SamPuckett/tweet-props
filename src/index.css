@@ -12,13 +12,23 @@
     color: #aab8c2;
 }
 
-.buttons i {
-    width: 80px;
-}
-
 .handle {
     color: #8899a6;
     font-size: 13px;
+}
+
+.like-button, .more-options-button,
+.reply-button, .retweet-button {
+    width: 80px;
+    display: inline-block;
+}
+
+.like-count, .retweet-count {
+    position: relative;
+    bottom: 2px;
+    font-size: 13px;
+    margin-left: 6px;
+    font-weight: bold;
 }
 
 .name {
